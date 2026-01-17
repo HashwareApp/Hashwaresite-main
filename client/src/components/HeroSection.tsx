@@ -166,7 +166,7 @@ export function HeroSection() {
               {/* Floating tech icons around logo */}
               {/* Code icon - centered above logo */}
               <motion.div
-                className="absolute -top-4 sm:-top-8 lg:-top-10 left-0 right-0 mx-auto w-fit z-20"
+                className="absolute top-4 sm:top-0 lg:-top-10 left-0 right-0 mx-auto w-fit z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
@@ -187,7 +187,7 @@ export function HeroSection() {
 
               {/* Smartphone icon - right side, centered vertically */}
               <motion.div
-                className="absolute top-1/2 -right-2 sm:-right-6 lg:-right-12 -translate-y-1/2 z-20"
+                className="absolute top-1/2 right-4 sm:right-0 lg:-right-12 -translate-y-1/2 z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
@@ -208,7 +208,7 @@ export function HeroSection() {
 
               {/* Globe icon - left side, centered vertically (same height as smartphone) */}
               <motion.div
-                className="absolute top-1/2 -left-2 sm:-left-6 lg:-left-12 -translate-y-1/2 z-20"
+                className="absolute top-1/2 left-4 sm:left-0 lg:-left-12 -translate-y-1/2 z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
