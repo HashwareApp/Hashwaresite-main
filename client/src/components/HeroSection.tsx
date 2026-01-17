@@ -166,7 +166,7 @@ export function HeroSection() {
               {/* Floating tech icons around logo */}
               {/* Code icon - centered above logo */}
               <motion.div
-                className="absolute -top-10 left-0 right-0 mx-auto w-fit z-20"
+                className="absolute -top-4 sm:-top-8 lg:-top-10 left-0 right-0 mx-auto w-fit z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
@@ -180,14 +180,14 @@ export function HeroSection() {
                   ease: "easeInOut",
                 }}
               >
-                <div className="p-3 rounded-xl backdrop-blur-sm bg-blue-500/10 border border-blue-500/30 shadow-lg shadow-blue-500/20">
-                  <Code2 className="w-6 h-6 text-blue-400" />
+                <div className="p-2 sm:p-3 rounded-xl backdrop-blur-sm bg-blue-500/10 border border-blue-500/30 shadow-lg shadow-blue-500/20">
+                  <Code2 className="w-5 h-5 sm:w-6 sm:h-6 text-blue-400" />
                 </div>
               </motion.div>
 
               {/* Smartphone icon - right side, centered vertically */}
               <motion.div
-                className="absolute top-1/2 -right-12 -translate-y-1/2 z-20"
+                className="absolute top-1/2 -right-2 sm:-right-6 lg:-right-12 -translate-y-1/2 z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
@@ -201,14 +201,14 @@ export function HeroSection() {
                   ease: "easeInOut",
                 }}
               >
-                <div className="p-3 rounded-xl backdrop-blur-sm bg-purple-500/10 border border-purple-500/30 shadow-lg shadow-purple-500/20">
-                  <Smartphone className="w-6 h-6 text-purple-400" />
+                <div className="p-2 sm:p-3 rounded-xl backdrop-blur-sm bg-purple-500/10 border border-purple-500/30 shadow-lg shadow-purple-500/20">
+                  <Smartphone className="w-5 h-5 sm:w-6 sm:h-6 text-purple-400" />
                 </div>
               </motion.div>
 
               {/* Globe icon - left side, centered vertically (same height as smartphone) */}
               <motion.div
-                className="absolute top-1/2 -left-12 -translate-y-1/2 z-20"
+                className="absolute top-1/2 -left-2 sm:-left-6 lg:-left-12 -translate-y-1/2 z-20"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ 
                   opacity: [0.3, 0.8, 0.3],
@@ -222,8 +222,8 @@ export function HeroSection() {
                   ease: "easeInOut",
                 }}
               >
-                <div className="p-3 rounded-xl backdrop-blur-sm bg-cyan-500/10 border border-cyan-500/30 shadow-lg shadow-cyan-500/20">
-                  <Globe className="w-6 h-6 text-cyan-400" />
+                <div className="p-2 sm:p-3 rounded-xl backdrop-blur-sm bg-cyan-500/10 border border-cyan-500/30 shadow-lg shadow-cyan-500/20">
+                  <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-cyan-400" />
                 </div>
               </motion.div>
 
