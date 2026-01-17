@@ -1,0 +1,6 @@
+# Hashware - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://hashware.app/sitemap.xml
